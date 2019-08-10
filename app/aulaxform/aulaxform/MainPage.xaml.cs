@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aulaxform.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,6 +17,17 @@ namespace aulaxform
         public MainPage()
         {
             InitializeComponent();
+            var vm = new MainViewModel();
+
+           
+
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage.Navigation.PushAsync(new HomePage());
+            
         }
     }
 }

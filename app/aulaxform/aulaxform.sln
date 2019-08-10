@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aulaxform.Android", "aulaxf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aulaxform.iOS", "aulaxform.iOS\aulaxform.iOS.csproj", "{D9C96BC7-E6AF-446E-A88F-A7B2AC86F0F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aulaxform", "aulaxform\aulaxform.csproj", "{78ABBD7C-58CC-49B0-BDD7-122B9A047EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aulaxform", "aulaxform\aulaxform.csproj", "{78ABBD7C-58CC-49B0-BDD7-122B9A047EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
